@@ -5,9 +5,9 @@
 Sportify is a Chrome extension providing live cricket scores and the latest sports news. Stay updated with real-time match details and recommended sports articles.
 
 **Screenshots:**
-![Sports Articles](images/1280.5.png)
-![Live Cricket Scores](images/1280.1.png)
-![Match Details](images/1280.2.png)
+![Sports Articles](1280.5.png)
+![Live Cricket Scores](1280.1.png)
+![Match Details](1280.2.png)
 
 
 **Features:**
