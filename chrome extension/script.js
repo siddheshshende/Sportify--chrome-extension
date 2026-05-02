@@ -1,3 +1,7 @@
+
+document.getElementById("title").innerText =
+  `Live Cricket (IPL-${new Date().getFullYear()}) Updates`;
+
 async function getMatchData() {
     try {
         const response = await fetch("https://api.cricapi.com/v1/currentMatches?apikey=bef4b6e4-0fbb-4e11-9410-6e16e2ca5ab1&offset=0");
@@ -9,7 +13,7 @@ async function getMatchData() {
 
         if (!matchesList) return [];
 
-        const relevantData = matchesList.filter(match => match.series_id === "76ae85e2-88e5-4e99-83e4-5f352108aebc").map(match => {
+        const relevantData = matchesList.filter(match => match.series_id === "87c62aac-bc3c-4738-ab93-19da0690488f").map(match => {
             const matchInfo = `<h4>${match.name}</h4><br>Match Status: ${match.status}<br>Venue: ${match.venue}`;
 
             const scores = match.score.map(score => `<span class="match-score">${score.inning}: ${score.r}/${score.w} in ${score.o} overs</span>`);
