@@ -1,6 +1,6 @@
 {
     "name": "Sportify",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "manifest_version": 3,
     "description": "Shows you the live cricket score and latest sports news.",
     "author": "Siddhesh Shende",
